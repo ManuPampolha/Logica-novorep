@@ -5,7 +5,6 @@ variacaoInicial = 0
 variacaoFinal = 0
 
 try:
-    # listaPib=lerArquivo(lista_PIB.csv)
     with open('lista_PIB.csv', mode="r", encoding="utf8") as arquivo:
         dados = csv.reader(arquivo, delimiter=";")
 
